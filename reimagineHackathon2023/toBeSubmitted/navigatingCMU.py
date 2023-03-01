@@ -32,8 +32,8 @@ def main():
     print("\nRunning navigatingCMU.py\n")
 
     # Initialize google maps from Google Maps API
-    API_KEY = "AIzaSyCQf7SWDsM3Xv5QlFlGwnglY4t-VtxuUJs"
-    # API_KEY = "AIzaSyCBmXf_o8VL9gYrpAGO58lGiCy2BlTjgn8"
+    API_KEY = "###########################"
+    # API_KEY = "###########################"
     gmaps = googlemaps.Client(key=API_KEY)
 
     # Read ".xlsx" file for all CMU locations
